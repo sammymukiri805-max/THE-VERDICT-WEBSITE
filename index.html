@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>The Verdict – Affiliate Reviews</title>
+  <meta name="description" content="The Verdict brings you honest reviews on TikTok tools, Amazon gear, and AI writing software.">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <div class="logo">⚖️ The Verdict</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tiktok">TikTok</a></li>
+          <li><a href="#amazon">Amazon</a></li>
+          <li><a href="#ai">AI Tools</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h1>We test. You trust. <span class="highlight">We earn a commission.</span></h1>
+        <p class="tagline">Honest affiliate reviews for TikTok creators, outdoor gear, and AI tools.</p>
+        <a href="#tiktok" class="btn btn-primary">Explore top picks →</a>
+      </div>
+    </section>
+
+    <!-- TikTok Affiliate Section -->
+    <section id="tiktok" class="recommendations">
+      <div class="container">
+        <h2>📱 TikTok Affiliate – Grow Your Account</h2>
+        <p class="coming-soon">No products yet. Click the button to add your first TikTok tool.</p>
+        <div class="add-product-container">
+          <button class="btn btn-secondary add-product-btn" data-section="tiktok">+ Add TikTok Product</button>
+        </div>
+        <div class="product-grid" id="tiktokProductGrid"></div>
+      </div>
+    </section>
+
+    <!-- Amazon Affiliate Section -->
+    <section id="amazon" class="recommendations">
+      <div class="container">
+        <h2>🛒 Amazon Affiliate – Top Gear Picks</h2>
+        <p class="coming-soon">No products yet. Click the button to add your first Amazon find.</p>
+        <div class="add-product-container">
+          <button class="btn btn-secondary add-product-btn" data-section="amazon">+ Add Amazon Product</button>
+        </div>
+        <div class="product-grid" id="amazonProductGrid"></div>
+      </div>
+    </section>
+
+    <!-- Best AI Writing Tool Section -->
+    <section id="ai" class="recommendations">
+      <div class="container">
+        <h2>✍️ Best AI Writing Tool</h2>
+        <p class="coming-soon">No products yet. Click the button to add your first AI writing tool.</p>
+        <div class="add-product-container">
+          <button class="btn btn-secondary add-product-btn" data-section="ai">+ Add AI Writing Tool</button>
+        </div>
+        <div class="product-grid" id="aiProductGrid"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Partner with The Verdict</h2>
+        <p>Product owners & PR teams: want an honest review? Email us directly.</p>
+        <div class="contact-email-box">
+          📧 <a href="mailto:bestverdict@gmail.com">bestverdict@gmail.com</a>
+          <button id="copyEmailBtn" class="copy-btn">Copy email</button>
+        </div>
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Your name / brand</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Product pitch / partnership inquiry</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send inquiry</button>
+          <p id="formFeedback" class="form-feedback"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 The Verdict – Affiliate marketing with integrity.</p>
+      <p>Email: <a href="mailto:bestverdict@gmail.com" class="footer-email">bestverdict@gmail.com</a></p>
+      <div class="social-links">
+        <a href="#">Instagram</a> | <a href="#">X</a> | <a href="#">YouTube</a>
+      </div>
+      <p class="footer-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+      <p class="footer-disclosure">Other affiliate links may also earn commissions.</p>
+    </div>
+  </footer>
+</body>
+</html>
